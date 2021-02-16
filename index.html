@@ -1,0 +1,333 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Site Title Here</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> 
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/themify-icons.css"> 
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>  
+        
+        <div class="timer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2 text-center">
+                        <div class="timer-clock-start">
+                            <ul>
+                                <li id="hours">10</li>
+                                <li id="point">:</li>
+                                <li id="min">13</li>
+                                <li id="point">:</li>
+                                <li id="sec">03</li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="col-lg-12 text-center"> 
+                            <div id="clockdiv">
+                            <div>
+                                <span class="days"></span> 
+                            </div>
+                            <div>
+                                <span class="hours"></span> 
+                            </div>
+                            <div>
+                                <span class="minutes"></span> 
+                            </div>
+                            <div>
+                                <span class="seconds"></span> 
+                            </div>
+                            </div> 
+                    </div>
+                    <div class="col-lg-12">
+                        <div class='wrapper'>
+                            <div class='time-part-wrapper'>
+                              <div class='time-part minutes tens'>
+                                <div class='digit-wrapper'>
+                                  <span class='digit'>0</span>
+                                  <span class='digit'>5</span>
+                                  <span class='digit'>4</span>
+                                  <span class='digit'>3</span>
+                                  <span class='digit'>2</span>
+                                  <span class='digit'>1</span>
+                                  <span class='digit'>0</span>
+                                </div>
+                              </div>
+                              <div class='time-part minutes ones'>
+                                <div class='digit-wrapper'>
+                                  <span class='digit'>0</span>
+                                  <span class='digit'>9</span>
+                                  <span class='digit'>8</span>
+                                  <span class='digit'>7</span>
+                                  <span class='digit'>6</span>
+                                  <span class='digit'>5</span>
+                                  <span class='digit'>4</span>
+                                  <span class='digit'>3</span>
+                                  <span class='digit'>2</span>
+                                  <span class='digit'>1</span>
+                                  <span class='digit'>0</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class='time-part-wrapper'>
+                              <div class='time-part seconds tens'>
+                                <div class='digit-wrapper'>
+                                  <span class='digit'>0</span>
+                                  <span class='digit'>5</span>
+                                  <span class='digit'>4</span>
+                                  <span class='digit'>3</span>
+                                  <span class='digit'>2</span>
+                                  <span class='digit'>1</span>
+                                  <span class='digit'>0</span>
+                                </div>
+                              </div>
+                              <div class='time-part seconds ones'>
+                                <div class='digit-wrapper'>
+                                  <span class='digit'>0</span>
+                                  <span class='digit'>9</span>
+                                  <span class='digit'>8</span>
+                                  <span class='digit'>7</span>
+                                  <span class='digit'>6</span>
+                                  <span class='digit'>5</span>
+                                  <span class='digit'>4</span>
+                                  <span class='digit'>3</span>
+                                  <span class='digit'>2</span>
+                                  <span class='digit'>1</span>
+                                  <span class='digit'>0</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class='time-part-wrapper'>
+                              <div class='time-part hundredths tens'>
+                                <div class='digit-wrapper'>
+                                  <span class='digit'>0</span>
+                                  <span class='digit'>9</span>
+                                  <span class='digit'>8</span>
+                                  <span class='digit'>7</span>
+                                  <span class='digit'>6</span>
+                                  <span class='digit'>5</span>
+                                  <span class='digit'>4</span>
+                                  <span class='digit'>3</span>
+                                  <span class='digit'>2</span>
+                                  <span class='digit'>1</span>
+                                  <span class='digit'>0</span>
+                                </div>
+                              </div>
+                              <div class='time-part hundredths ones'>
+                                <div class='digit-wrapper'>
+                                  <span class='digit'>0</span>
+                                  <span class='digit'>9</span>
+                                  <span class='digit'>8</span>
+                                  <span class='digit'>7</span>
+                                  <span class='digit'>6</span>
+                                  <span class='digit'>5</span>
+                                  <span class='digit'>4</span>
+                                  <span class='digit'>3</span>
+                                  <span class='digit'>2</span>
+                                  <span class='digit'>1</span>
+                                  <span class='digit'>0</span>
+                                </div>
+                              </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <h1>Mother Flippin Clock!</h1>
+                        <span class="clock"></span> 
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <h1 class='timer' data-minutes-left=30></h1>
+                        <section class='actions'></section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		<!-- JS here -->
+        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script> 
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
+        <script src="assets/js/timer.js"></script> <!-- for five timer -->
+        <script src="assets/js/main.js"></script> 
+        
+        <script type="text/javascript">
+            $(document).ready(function() {
+            // Create two variable with the names of the months and days in an array
+            var monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]; 
+            var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+            
+            // Create a newDate() object
+            var newDate = new Date();
+            // Extract the current date from Date object
+            newDate.setDate(newDate.getDate());
+            // Output the day, date, month and year    
+            $('#Date').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+            
+            setInterval( function() {
+                // Create a newDate() object and extract the seconds of the current time on the visitor's
+                var seconds = new Date().getSeconds();
+                // Add a leading zero to seconds value
+                $("#sec").html(( seconds < 10 ? "0" : "" ) + seconds);
+                },1000);
+                
+            setInterval( function() {
+                // Create a newDate() object and extract the minutes of the current time on the visitor's
+                var minutes = new Date().getMinutes();
+                // Add a leading zero to the minutes value
+                $("#min").html(( minutes < 10 ? "0" : "" ) + minutes);
+                },1000);
+                
+            setInterval( function() {
+                // Create a newDate() object and extract the hours of the current time on the visitor's
+                var hours = new Date().getHours();
+                // Add a leading zero to the hours value
+                $("#hours").html(( hours < 10 ? "0" : "" ) + hours);
+                }, 1000);
+                
+            }); 
+        </script>
+        <script>
+            function getTimeRemaining(endtime) {
+                var t = Date.parse(endtime) - Date.parse(new Date());
+                var seconds = Math.floor((t / 1000) % 60);
+                var minutes = Math.floor((t / 1000 / 60) % 60);
+                var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+                var days = Math.floor(t / (1000 * 60 * 60 * 24));
+                return {
+                    'total': t,
+                    'days': days,
+                    'hours': hours,
+                    'minutes': minutes,
+                    'seconds': seconds
+                };
+                }
+
+                function initializeClock(id, endtime) {
+                var clock = document.getElementById(id);
+                var daysSpan = clock.querySelector('.days');
+                var hoursSpan = clock.querySelector('.hours');
+                var minutesSpan = clock.querySelector('.minutes');
+                var secondsSpan = clock.querySelector('.seconds');
+
+                function updateClock() {
+                    var t = getTimeRemaining(endtime);
+
+                    daysSpan.innerHTML = t.days;
+                    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+                    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+                    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+                    if (t.total <= 0) {
+                    clearInterval(timeinterval);
+                    }
+                }
+
+                updateClock();
+                var timeinterval = setInterval(updateClock, 1000);
+                }
+
+                var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+                initializeClock('clockdiv', deadline); 
+        </script>
+        <script> 
+            var Clock = (function(){
+
+            var exports = function(element) {
+                this._element = element;
+                var html = '';
+                for (var i=0;i<6;i++) {
+                    html += '<span>&nbsp;</span>';
+                }
+                this._element.innerHTML = html;
+                this._slots = this._element.getElementsByTagName('span');
+                this._tick();
+            };
+
+            exports.prototype = {
+
+                _tick:function() {
+                    var time = new Date();
+                    this._update(this._pad(time.getHours()) + this._pad(time.getMinutes()) + this._pad(time.getSeconds()));
+                    var self = this;
+                    setTimeout(function(){
+                        self._tick();
+                    },1000);
+                },
+
+                _pad:function(value) {
+                    return ('0' + value).slice(-2);
+                },
+
+                _update:function(timeString) {
+
+                    var i=0,l=this._slots.length,value,slot,now;
+                    for (;i<l;i++) {
+
+                        value = timeString.charAt(i);
+                        slot = this._slots[i];
+                        now = slot.dataset.now;
+
+                        if (!now) {
+                            slot.dataset.now = value;
+                            slot.dataset.old = value;
+                            continue;
+                        }
+
+                        if (now !== value) {
+                            this._flip(slot,value);
+                        }
+                    }
+                },
+
+                _flip:function(slot,value) {
+
+                    // setup new state
+                    slot.classList.remove('flip');
+                    slot.dataset.old = slot.dataset.now;
+                    slot.dataset.now = value;
+
+                    // force dom reflow
+                    slot.offsetLeft;
+
+                    // start flippin
+                    slot.classList.add('flip');
+
+                }
+
+            };
+
+            return exports;
+            }());
+
+            var i=0,clocks = document.querySelectorAll('.clock'),l=clocks.length;
+            for (;i<l;i++) {
+            new Clock(clocks[i]);
+            } 
+        </script>
+        <script>
+            $(function(){
+                $('.timer').startTimer({
+                    onComplete: function(element){
+                    $('html, body').addClass('bodyTimeoutBackground');
+                    }
+                }).click(function(){ location.reload() });
+                })
+        </script>
+    </body>
+</html>
